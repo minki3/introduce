@@ -1,0 +1,167 @@
+
+.container{
+	display: inline-flex;
+	flex-direction: column;
+	width: 100vh;
+}	
+
+header{
+	border-bottom: 1px solid gray;
+}
+
+footer{
+	border-top: 1px solid gray;
+
+}
+
+.content{
+	display: flex;
+}
+
+nav{
+	border-right: 1px solid gray;
+	flex-basis: 300px;
+}
+
+.picture{
+	margin: 15px;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin: 10px;
+	height: 100vh;
+}
+
+.picture{
+	width: 250px;
+}
+
+.introduce{
+	padding-left: 20px;
+}
+
+.html2-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1800px;
+}
+
+.html2-head{
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.musiclist2{
+	display: flex;
+}
+
+.music{
+
+	border: 1px gray;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	margin: 50px;
+	padding: 10px;
+
+}
+
+.singer{
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+.singer img{
+	border-radius: 20px;
+	width: 250px;
+}
+.singer p{
+	width: 500px;
+	padding-left: 20px;
+	padding-top: 20px;
+	letter-spacing: 1px;
+
+}
+
+.singer2{
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+
+.music:nth-child(1) {
+	background-image: url("레몬.jpg");
+}
+
+.music:nth-child(2){
+	background-image: url("vivi.jpg");
+}
+
+.music:nth-child(3){
+	background-image: url("eine_cline.jpg");
+}
+
+.listen{
+	display: flex;
+	justify-content: space-between;
+}
+
+.listenbox{
+	border: 1px solid gray;
+	width: 300px;
+	height: 20px;
+	border-radius: 10px;
+	margin: 50px;
+	padding: 10px;
+	text-align: center;
+	background-color: #abf5f4;
+	color: white;
+	margin-top: 3px;
+ 	transition: all 0.4s 
+
+
+}
+
+.listenbox:hover{
+	background-color: black;
+	color: white;
+}
+
+.button{
+	position: absolute;
+	left: 350px;
+	background-color: #abf5f4;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 5px 10px;
+	color: white;
+	transition: all 0.4s;
+}
+
+.button:hover{
+	background-color: black;
+	color: white;
+}
+
+.hobbyIntroduce{
+	display: flex;
+	width: 1000px;
+	flex-direction: column;
+}
+
+.hobby-bottom{
+	display: flex;
+	border-bottom: 1px solid gray;
+	padding: 30px;
+}
+
+.hobbyPicture{
+	padding-right: 20px;
+	width: 100px;
+}
